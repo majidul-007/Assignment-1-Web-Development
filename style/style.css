@@ -1,200 +1,437 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+
+body {
   font-family: "Azeret Mono", monospace;
 }
-.nav-title{
+
+.nav-title {
   font-family: "Azeret Mono", monospace;
   font-size: 28px;
   font-weight: 800;
   color: black;
   margin-left: 5%;
 }
-.button-btr{
-  font-family: "Azeret Mono", monospace;
-  padding: 10px 24px;
-  border-radius: 8px;
+.target{
+  width: 852px;
+}
+
+.button-btr {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
   font-size: 20px;
-  height: 40px;
-  margin-right: 5%;
+  font-weight: 600;
+  padding: 17px 24px 17px 24px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+
 
 }
-.nav-title{
- display:flex;
- justify-content: space-between;
- align-items: center;
+
+.nav-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
 
 }
-.banner{
+
+.banner {
   background-image: url('../assets/Hero-bg.png');
+  width: 1440px;
+  height: 652px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.banner-img {
+  width: 173.03px;
+}
+
+.banner-img>img {
   width: 100%;
-  height: 500px;
-  display:flex;
+}
+
+.banner-container {
+  width: 998px;
+  height: 582px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+
+  justify-content: space-between;
 }
-.button-background{
+
+.banner-info {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-background {
   color: white;
   background-color: black;
   padding: 21px 24px;
   border-radius: 8px;
 }
-.banner-mid{
+
+.banner-mid {
   text-align: center;
 
 }
-.banner-mono{
-  font-weight:600;
+
+.banner-mono {
+  font-weight: 600;
   margin-right: 35%;
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
   background: #FFFFFF;
   text-align: center;
   padding-top: 48px;
 }
-.banner-net{
+
+.banner-net {
   margin-right: 10%;
   text-align: left;
   padding-top: 48px;
 }
-.banner-mit{
-  
+
+.banner-mit {
+
   text-align: left;
-  
+
 }
-.banner-head{
+
+.banner-head {
   display: flex;
   justify-content: center;
   text-align: left;
   margin-right: 35%;
   padding-top: 48px;
 }
-.button-code{
-  padding: 10px 20px;
+
+.button-code {
+  padding: 12px 20px 12px 20px;
   font-size: 10px;
-  margin-right: 35%;
+  width: 150px;
+  height: 48px;
 }
-.banner-modify{
-  text-align: center;
-  margin-left: 370px;
-  margin-right: 370px;
-  padding-top: 32px;
-  background-size:1140px 1393px ;
-  background-color: #e8fef7 ;
-}
-.banner-back{
-  align-items: center;
-  margin: auto;
-  background-size:1140px 1393px ;
-  text-align: center;
-  padding-top: 48px;
-}
-.banner-netis{
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  margin-right: 35%;
-  padding-top: 48px;
-}
-.cart{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 35%;
-}
-.bi-section{
-  text-align:center;
-  align-items: center;
-  background-size:1140px 1393px ;
-  text-align: center;
-  padding-top: 48px;
 
-}
-.Video-link{
+.banner-modify {
   display: flex;
-  justify-content: center;
-  margin: auto;
-  padding-top: 48px;
-}
-.cart-3{
-  text-align: center;
+  align-items: center;
 
+  background-size: 1140px 1393px;
+  background-color: #fe7171;
 }
-.cart-two{
-  text-align: center;
-  padding-top: 48px;
-}
-.code-1{
-  text-align: left;
-  background-color:  #ffdbd2;
-  margin: 2%;
+
+
+
+
+
+
+
+.card-container {
   
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 48px;
 }
-.code-2{
+
+.inspire{
+  width: 852px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  padding: 48px;
+  border-radius: 16px;
+  border-radius: 16px;
+
+  background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+
+
+}
+
+.card-information {
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  margin: 2%;
-  background-color: #c9dbff;
+  justify-content: center;
+
+
 }
-.code-3{
-  text-align: left;
-  margin: 2%;
-  background-color: rgb(255, 255, 215);
+
+.card-img {
+  width: 30%;
 }
-.Coding-web{
+
+.card-img img {
+  width: 100%;
+}
+
+
+.banner-back {
+  align-items: center;
+  margin: auto;
+  width: 1140px;
+  text-align: center;
+  padding: 80px 97px 80px 97px;
+  margin-top: 74px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.banner-netis {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-left: 370px;
-  margin-right: 370px;
-  padding-top: 32px;
-  background-size:1140px 1393px ;
-  background-color: #e8fef7 ;
+  text-align: left;
+  margin-right: 35%;
+  padding-top: 48px;
 }
-.apps{
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35%;
+}
+
+.bi-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 48px;
-  width: 1440px 219px;
-  text-align: left;
-  margin-left: 370px;
-  margin-right: 370px;
-  background-size:1140px 1393px ;
-  background-color: #e8fef7 ;
-}
-.support{
   text-align: center;
-  border-radius: 8px;
-  padding: 10px 20px;
-  background-image: url(../assets/handshake.jpg);
-  background-color:#FFFFFF;
-  border-radius: 8px;
-  margin-left: 370px;
-  margin-right: 370px;
-}
-.submit{
-  font-size: 20px;
-  background-color: white;
-  border-radius: 8px;
+  align-items: center;
+  
+  text-align: center;
+  margin-top: 88px;
+  align-items: center;
+ 
 
 }
-.input-field{
-  font-size: 20px ;
-  width: 25%;
-  background-color: white;
-  border-radius: 8px;
 
+.Video-link {
+  width: 1140px;
+  height: 614px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 48px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  margin-top: 48px;
+}
+.c-target{
+  margin-bottom: 110px;
+}
+
+.video {
+  border-radius: 16px;
+}
+
+.cart-3 {
+  text-align: center;
+  
+  
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+
+}
+
+.cart-two {
+  text-align: center;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.code-1 {
+  text-align: left;
+  background-color: #ffdbd2;
+  width: 364px;
+
+  border-radius: 8px;
+  padding: 40px;
+
+}
+
+.code-2 {
+  text-align: left;
+
+  background-color: #c9dbff;
+  width: 364px;
+  border-radius: 8px;
+  padding: 40px;
+
+}
+
+.code-3 {
+  text-align: left;
+
+  background-color: rgb(255, 255, 215);
+  width: 364px;
+
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.Coding-web {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 48px;
+  width: 1140px;
+  
+  justify-content: space-between;
+  gap: 24px;
+}
+
+
+.t-img {
+  width: 100px;
   
 }
-.footer-mama{
-  display:flex;
-  justify-content: space-between;
-  padding-right: 12%;
+.t-img>img{
+  width: 100%;
 }
-.footer-1{
-  margin-left: 370px;
-  margin-right: 370px;
+
+
+
+
+
+
+.app-1 {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 10px;
+}
+.all-apps{
+  display: flex;
+  width: 1140px;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 48px;
+}
+.apps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1140px;
+
+  text-align: left;
+  margin: auto;
+
+  margin-bottom: 50px;
+  gap: 24px;
+
+}
+
+.support {
+  margin-top: 80px;
   text-align: center;
+  background-image: url(../assets/handshake.jpg);
+  border-width: 200px;
+  color: white;
+  padding: 64px 48px 64px 48px;
+  width: 1140px;
+  display: flex;
+  margin: auto;
+  border-radius: 16px;
+
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+
+
+}
+
+.submit {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  border: none;
+
+}
+
+.input-field {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+
+
+}
+
+.footer-mama {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+  justify-content: space-between;
+
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 150px 32px 150px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.footer-1 {
+
+  text-align: center;
+}
+
+.freedback {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.m-box {
+  display: flex;
+  width: 684px;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+
 }
